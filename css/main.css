@@ -1,0 +1,228 @@
+/***** BASE STYLES *****/
+body {
+    color:#2b2b2b;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+/***** GRID *****/
+.full-width {
+    margin: 0px;
+    overflow: auto;    
+    width: 1200px;
+}
+.half-width {
+    float: left;
+    width: 600px;
+}
+.third-width {
+    float: left;
+    width: 400px;
+}
+
+/***** HEADER *****/
+#homepage-header {
+    background: url('../img/full-background.png') no-repeat #e0ebf6;
+    background-position: center;
+    background-size: cover;
+    height: 800px;
+}
+#homepage-header h1{
+    color: #354c77;
+    font-family: 'Lora', serif;
+    font-size: 30px;
+    padding: 65px 0 65px 25px;
+}
+#small-picture{
+    height:100px;
+    width:120px;
+    margin: 0px;
+    border-radius: 50px;
+}
+#work-header{
+    background: #e0ebf6;
+    background-position: center;
+    background-size: cover;
+    height: 150px;
+}
+#work-header h1{
+    color: #354c77;
+    font-family: 'Lora', serif;
+    font-size: 30px;
+    padding: 40px 0 65px 25px;
+}
+#work-nav{
+    float: right;
+    padding: 50px 0 65px 25px;
+}
+#funny-header {
+    background: url('../img/patrick.png') no-repeat #e0ebf6;
+    background-position: center;
+    background-size: cover;
+    height: 800px;
+}
+#funny-header h1{
+    padding-right:200px;
+}
+
+#homepage-nav{
+    float: right;
+    padding: 75px 25px;
+}
+nav ul li{
+    display: inline-block;
+}
+nav ul li a{
+    color: #828282;
+    font-size: 18px;
+    padding-left: 80px;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+header h2{
+    clear: both;
+    color: #9b9b9b;
+    font-family: 'Lora', serif;
+    font-size: 72px;
+    line-height: 80px;
+    padding: 20px 0 20px 25px;
+    width: 1000px;
+}
+header h2 span{
+    color: #000000
+}
+/***** ABOUT *****/
+#about .full-width{
+    padding: 80px 0;
+    background: #ffffff;
+}
+#about h2 {
+    font-family: 'Lora', serif;
+    font-size: 36px;
+    padding-left: 50px;
+}
+#about p{
+    color: #7f7f7f;
+    font-size: 21px;
+    line-height: 40px;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+/***** WORK *****/
+#work{
+    background: #e0ebf6;
+    text-align: center;
+    height: 500px;
+}
+#work .full-width{
+    padding: 80px 0;
+}
+#work img{
+    padding-bottom: 30px;
+}
+#work h3{
+font-size: 24px;
+line-height: 32px;
+margin: 0 auto;
+width: 190px;
+}
+#work p{
+font-family: 'Lora', serif;
+font-size: 18px;
+line-height: 30px;
+padding: 0 50px;
+}
+/***** CONTACT *****/
+#contact{
+    background: #ebebeb;
+}
+#contact .full-width{
+    padding: 110px 0;
+}
+#contact img#contact-image{
+    border: 12px solid #ffffff;
+    margin-left: 25px;
+    width: 500px;
+    height: 300px;
+}
+#contact h2, #contact #email-header, #contact #socialmedia-header, #contact ul{
+    padding-left: 115px;
+}
+#contact #envelope{
+    padding: 0 10px 0 115px;
+}
+#contact h2{
+    font-family: 'Lora', serif;
+    font-size: 36px;
+    line-height: 44px;
+}
+#contact #email-header{
+    font-size: 32px;
+    font-weight: lighter;
+    line-height: 44px;
+    margin: -30px 0 5px 0;
+}
+#contact #socialmedia-header{
+    font-size: 29px;
+    font-weight: bold;
+    line-height: 44px;
+    margin: 40px 0 0 0;
+}
+#contact a{
+    color: #347B98;
+    font-size: 28px;
+    font-weight: bold;
+    text-decoration: none;
+}
+#contact ul{
+    list-style: none;
+    padding-left: 200px;
+}
+#contact ul li{
+    display: inline-block;
+}
+#contact ul img{
+    padding-right: 48px;
+}
+/***** WORK PAGE *****/
+#projects{
+    background: #ffffff;
+}
+#projects h2 {
+    font-family: 'Lora', serif;
+    font-size: 36px;
+    padding-left: 100px;
+}
+#projects p{
+    color: #7f7f7f;
+    font-size: 25px;
+    line-height: 40px;
+    padding-left: 100px;
+    padding-right: 50px;
+}
+.sample{
+    width: 400px;
+    height: 400px;    
+    margin: 100px;
+    padding: 10px;
+    border: 5px solid #336699;
+    background: #e0ebf6;
+}
+.sample h3{
+    font-family: 'Lora', serif;
+    font-size: 30px;
+    text-align: center;
+    padding: 100px 100px 50px 100px;
+}
+.sample button{
+    height: 30px;
+    width: 80px;
+    border: 3px solid #336699;
+    border-radius: 30px;
+    background: #336699;
+    color: #ffffff;
+    text-align: center;
+    margin: 5px 155px;
+}
+.sample button a{
+    font-weight: bold;
+    text-decoration: none;
+}
