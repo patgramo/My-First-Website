@@ -7,15 +7,15 @@ body {
 .full-width {
     margin: 0px;
     overflow: auto;    
-    width: 1200px;
+    width: 100%;
 }
 .half-width {
     float: left;
-    width: 600px;
+    width: 50%;
 }
 .third-width {
     float: left;
-    width: 400px;
+    width: 33%;
 }
 
 /***** HEADER *****/
